@@ -30,7 +30,7 @@ jobs:
 
       # Step 5: Deploy to S3
       - name: Deploy to S3
-        uses: aws-actions/s3-sync@v2
+        uses: aws-actions/s3-sync@v1
         with:
           source_dir: build
           bucket: your-s3-bucket-name  # <-- replace with your S3 bucket name
