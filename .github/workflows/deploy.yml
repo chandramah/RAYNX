@@ -33,7 +33,7 @@ jobs:
         uses: aws-actions/s3-sync@v1
         with:
           source_dir: build
-          bucket: your-s3-bucket-name  # <-- replace with your S3 bucket name
+          bucket: raynx-frontend # <-- replace with your S3 bucket name
           region: ${{ secrets.AWS_REGION }}
           delete: true
         env:
