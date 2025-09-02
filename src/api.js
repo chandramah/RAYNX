@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://your-backend-ip:8080/api"; // Replace with your backend URL
+// Base URL pointing to your EC2 backend with Elastic IP
+const BASE_URL = "http://3.108.76.92:8080/api";
 
 // Employees API
 export const getEmployees = async () => {
