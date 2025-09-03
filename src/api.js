@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// Base URL pointing to your EC2 backend with Elastic IP
-const BASE_URL = "http://3.108.76.92:8080/api";
+// Quick test: use EC2 Public DNS for backend (HTTP for demo purposes)
+const BASE_URL = "http://ec2-3-108-76-92.ap-south-1.compute.amazonaws.com:8080/api";
 
 // Employees API
 export const getEmployees = async () => {
